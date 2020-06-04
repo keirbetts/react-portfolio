@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import Experience from './Experience'
 import { Grid } from 'react-mdl'
+import vso from '../vsoLogo.png'
+import camboSchool from '../camboSchool.jpg'
+import camboTeam from '../camboTeam.jpg'
+import cambo from '../cambo.jpg'
+import dance from '../dance.jpg'
 
 // Change this and create a unique volunteering section.
 
@@ -9,13 +14,34 @@ class ExperiencePage extends Component {
     return (
       <div className='exp-body'>
         <Grid className='exp-grid'>
-          <h2 style={{ fontFamily: 'Courier New' }}>Volunteering</h2>
+          <a href={'https://www.vsointernational.org/volunteering/youth'} target='_blank' rel='noopener noreferrer'>
+            <img style={{ position: 'relative', bottom: '-620px', left: '54em', height: '100px' }}
+              src={vso}
+              alt='avatar'
+            />
+          </a>
+          <h2 style={{ fontFamily: 'Courier New', marginRight: '60px', position: 'relative', top: '-60px', left: '-150px' }}>Volunteering</h2>
           <Experience
-            // start={'February 2016'}
-            // end={'May 2016'}
-            jobName={'Volunteer'}
-            jobDesc={'I am experienced as an international volunteer working for Voluntary Service Overseas. Working in an isolated and deprived commmunity in rural Cambodia, I strived to improve facilities and the standard of education in the area. Part of a diverse team of both British and Cambodian nationals I lived with a local family. I developed organisational and leadership skills, alongside data collection, analysis and report writing, all whilst working alongside local stakeholders.'}
-          // jobDesc={'In this period I volunteered in a remote overseas location, helping to deliver a project to support a deprived community. Part of a multicultural team, I developed organisational and leadership skills, as we aimed to address the poor education infrastructure in the area.'}
+            img={<img style={{ height: '225px', borderRadius: '50px 0px 0px 0px', marginRight: '10em', marginLeft: '0em', top: '-80px', position: 'relative' }}
+              src={camboSchool}
+              alt='avatar' />}
+            img2={<img style={{ height: '225px', borderRadius: '0px 50px 0px 0px', marginRight: '0em', marginLeft: '12.5em', top: '-329px', position: 'relative' }}
+              src={camboTeam}
+              alt='avatar' />}
+            img3={<img style={{ height: '225px', borderRadius: '0px 0px 0px 50px', marginRight: '0em', marginLeft: '0em', top: '-353px', position: 'relative' }}
+              src={cambo}
+              alt='avatar' />}
+            img4={<img style={{ height: '225px', borderRadius: '0px 0px 50px 0px', marginLeft: '12.5em', top: '-602px', position: 'relative', width: '48.5%' }}
+              src={dance}
+              alt='avatar' />}
+            li1={'I am experienced as an international volunteer working for Voluntary Service Overseas.'}
+            li2={'Lived and worked in an isolated commmunity in rural Cambodia.'}
+            li3={'Strove to improve facilities and address the poor standard of education in the area.'}
+            li4={'Part of a diverse team of both British and Cambodian nationals, I lived with a local family.'}
+            li5={'Developed organisational and leadership skills, running workshops in the community.'}
+            li6={'Worked with local and national stakeholders to identify major issues.'}
+            li7={'Created a grounding for further progress in the area over the next two years.'}
+            li8={'Other duties included data collection, analysis and report writing.'}
           />
           {/* <Experience
             start={'2015'}

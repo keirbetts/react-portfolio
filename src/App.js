@@ -25,8 +25,6 @@ function App() {
             <Link to="/contact" style={{ color: '#00FF00', fontFamily: 'Courier New', fontSize: '15px' }}>Contact</Link>
             <Link to="/education" style={{ color: '#00FF00', fontFamily: 'Courier New', fontSize: '15px' }}>Education</Link>
             <Link to="/volunteer" style={{ color: '#00FF00', fontFamily: 'Courier New', fontSize: '15px' }}>Volunteering</Link>
-            {/* <Link to='/email'> Email</Link> */}
-            {/* <Link to="/writing" style={{ color: '#00FF00', fontFamily: 'Courier New' }}>Writing</Link> */}
           </Navigation>
         </Header>
         <Drawer title="Keir Betts" style={{ backgroundColor: 'black', color: '#00FF00', fontFamily: 'Courier New', border: 'black' }}>
@@ -37,8 +35,6 @@ function App() {
             <Link to="/contact" style={{ color: '#00FF00', fontFamily: 'Courier New', fontSize: '15px' }}>Contact</Link>
             <Link to="/education" style={{ color: '#00FF00', fontFamily: 'Courier New', fontSize: '15px' }}>Education</Link>
             <Link to="/volunteer" style={{ color: '#00FF00', fontFamily: 'Courier New', fontSize: '15px' }}>Volunteering</Link>
-            {/* <Link to='/email'>Email</Link> */}
-            {/* <Link to="/writing" style={{ color: '#00FF00', fontFamily: 'Courier New', fontSize: '15px' }}>Writing</Link> */}
             <div className='social-links'>
               <a href='https://www.linkedin.com/in/keir-betts-201b55189/' target='_blank' rel='noopener noreferrer'>
                 <i className='fa fa-linkedin-square' aria-hidden='true' />
