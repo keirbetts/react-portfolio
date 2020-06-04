@@ -7,7 +7,7 @@ import Typing from 'react-typing-animation'
 class HomePage extends Component {
   render() {
     return (
-      <div style={{ width: '100%', margin: 'auto' }}>
+      <div style={{ width: '100%' }}>
         <Grid className='home-grid'>
           <Cell col={12}>
             <div className='banner-text'>
